@@ -1,0 +1,21 @@
+canvas{
+  position: fixed;
+  top:  0;
+  left: 0;
+}
+
+.appcontent{
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 10px 10px;
+  overflow-x: hidden;
+}
+
+.vc{
+  top: 50%;
+  transform: translateY(10%);
+}
